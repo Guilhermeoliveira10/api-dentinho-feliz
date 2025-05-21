@@ -2,8 +2,53 @@
   "advice": [
     {
       "id": 1,
-      "question": "Como escovar os dentes corretamente?",
-      "category": "Escovação"
+      "category": "toothCare",
+      "advice": "Escove os dentes após todas as refeições."
+    },
+    {
+      "id": 2,
+      "category": "goodHabits",
+      "advice": "Evite consumir doces antes de dormir."
+    },
+    {
+      "id": 3,
+      "category": "dentalFloss",
+      "advice": "Use o fio dental diariamente, principalmente antes de dormir."
+    },
+    {
+      "id": 4,
+      "category": "toothache",
+      "advice": "Procure um dentista se sentir dor persistente nos dentes."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quantas vezes por dia é recomendado escovar os dentes?",
+      "options": ["1", "2", "3", "4"],
+      "correct_answer": "3"
+    },
+    {
+      "id": 2,
+      "question": "Qual é o tempo ideal de escovação?",
+      "options": ["30 segundos", "1 minuto", "2 minutos", "5 minutos"],
+      "correct_answer": "2 minutos"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "teste@email.com",
+      "username": "Testando",
+      "senha": "123456"
+    }
+  ],
+  "scores": [
+    {
+      "id": 1,
+      "userId": 1,
+      "score": 5,
+      "date": "2025-05-21"
     }
   ]
 }
